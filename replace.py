@@ -20,4 +20,3 @@ with open(nome_arquivo_saida, 'w') as arquivo_saida:
     arquivo_saida.write(conteudo_modificado)
 
 print(f'A substituição de "{palavra_antiga}" por "{palavra_nova}" foi concluída e salva em "{nome_arquivo_saida}".')
- 
